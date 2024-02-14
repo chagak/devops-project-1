@@ -21,7 +21,7 @@ pipeline {
             }
         }
 
-        stage('Terraform Init') {
+/*        stage('Terraform Init') {
                     steps {
                        withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-crendentails-chaganote']]){
                             dir('infra') {
@@ -78,3 +78,4 @@ pipeline {
         }
     }
 }
+*/
